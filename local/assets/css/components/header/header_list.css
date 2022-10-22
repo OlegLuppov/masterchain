@@ -1,0 +1,114 @@
+.wrapper-item-nav-page {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 45.22vh;
+}
+
+.wrapper-logo {
+  display: flex;
+}
+
+.wrapper-master {
+  width: 143.96px;
+  height: 37.71px;
+  background-image: url('/local/assets/img/icon/master.svg');
+}
+
+.wrapper-chain {
+  width: 115.74px;
+  height: 37.71px;
+  background-image: url('/local/assets/img/icon/chain.svg');
+}
+
+.nav-page {
+  display: flex;
+  gap: 10vh;
+  flex-wrap: wrap;
+}
+
+.nav-page li a {
+  font-family: 'ROboto Mono', sans-serif;
+  line-height: 19.2px;
+  letter-spacing: -0.3px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.nav-page li {
+  padding-top: 2px;
+}
+
+.nav-page li:nth-child(1) {
+  padding-left: 4px;
+}
+
+.nav-page li:nth-child(2) {
+  padding-left: 3px;
+}
+.nav-page li:nth-child(3) {
+  padding-left: 1px;
+}
+.nav-page li:nth-child(6) {
+  padding-left: 1px;
+}
+
+.wrapper-item-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15.5vh;
+}
+
+.header_nav-icon {
+  width: 26.27px;
+  height: 26.27px;
+  background-image: url('/local/assets/img/icon/search.svg');
+}
+
+.header_nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5vh;
+  font-family: 'ALS Sirius', sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.6px;
+  padding: 0;
+}
+
+.header_nav-cooperation {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 5vh;
+  color: #272727;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 12px 15px 12px 15px;
+}
+
+.header_nav-partners {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 5vh;
+  color: #ffffff;
+  background-color: #ff4713;
+  border-radius: 8px;
+  padding: 12px 15px 12px 15px;
+}
+
+.header_nav-ico-blue {
+  width: 10px;
+  height: 10px;
+  background-image: url('/local/assets/img/icon/strelka-blue.svg');
+}
+
+.header_nav-ico-wite {
+  width: 10px;
+  height: 10px;
+  background-image: url('/local/assets/img/icon/strelka-wite.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}

@@ -1,0 +1,18 @@
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: solid 1px #28368e;
+}
+
+.wraper-item-header {
+  width: 94%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8.4vh;
+  border-radius: 20px;
+  background-color: #183877;
+  padding: 22px;
+}
