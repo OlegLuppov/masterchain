@@ -1,9 +1,31 @@
 header {
+  position: relative;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   width: 100%;
-  padding-bottom: 20px;
-  border-bottom: solid 1px #28368e;
+  padding-bottom: 21px;
+}
+
+.header::before {
+  position: absolute;
+  top: 36%;
+  left: 2.7%;
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-color: #183877;
+  border-radius: 50%;
+}
+
+.header::after {
+  position: absolute;
+  top: 40%;
+  left: -0.2%;
+  content: '';
+  width: 57px;
+  height: 2px;
+  background-color: #183877;
 }
 
 .wraper-item-header {
@@ -11,8 +33,9 @@ header {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  gap: 8.4vh;
+  gap: 39px;
   border-radius: 20px;
   background-color: #183877;
   padding: 22px;
+  padding-bottom: 22px;
 }

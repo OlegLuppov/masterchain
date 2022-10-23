@@ -1,0 +1,321 @@
+.masterchain {
+  position: relative;
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  padding-top: 110px;
+  padding-left: 60px;
+  padding-right: 60px;
+  background: linear-gradient(333.27deg, #111c4e 25.59%, rgba(17, 28, 78, 0) 82.13%);
+}
+
+.masterchain-promo {
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.masterchain-promo-title {
+  max-width: 790px;
+  font-family: 'ALS Sirius', sans-serif;
+  font-size: calc(24px + (72 - 24) * (100vw - 400px) / (1920 - 400));
+  line-height: 100%;
+  font-weight: 700;
+  background: -webkit-linear-gradient(275.84deg, rgba(255, 71, 19, 0.7) 16.46%, rgba(194, 45, 247, 0.42) 63.05%, rgba(255, 255, 255, 0.7) 98.82%),
+    #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 0;
+}
+
+.masterchain-promo-content {
+  max-width: 449px;
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.promo-info-wrapper {
+  padding-bottom: 161px;
+}
+
+.masterchain-promo-info {
+  max-width: 418px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 68px;
+  font-family: 'ROboto Mono', sans-serif;
+  line-height: 19.2px;
+  letter-spacing: -0.3px;
+  font-size: 16px;
+}
+
+.masterchain-promo-info li a {
+  display: flex;
+}
+
+.masterchain-link-wite {
+  position: relative;
+  width: 130%;
+  background-color: #ffffff;
+  color: black;
+  border-radius: 8px;
+  padding-top: 57px;
+  padding-bottom: 11px;
+  padding-left: 17px;
+}
+
+.masterchain-link-blue {
+  position: relative;
+  width: 196%;
+  background-color: #183877;
+  color: #ffffff;
+  border-radius: 8px;
+  padding-top: 57px;
+  padding-bottom: 11px;
+  padding-left: 17px;
+}
+
+.masterchain-info-blue {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 10px;
+  height: 10px;
+  background-image: url('/local/assets/img/icon/strelka-blue.svg');
+  background-repeat: no-repeat;
+}
+
+.masterchain-info-wite {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 10px;
+  height: 10px;
+  background-image: url('/local/assets/img/icon/strelka-wite.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.masterchain-achievements {
+  max-width: 1378px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 68px;
+  z-index: 100;
+  background-color: #183877;
+  border-radius: 20px;
+  padding: 30px 0px 30px 35px;
+}
+
+.masterchain-achievements-link {
+  position: relative;
+  display: flex;
+  gap: 5px;
+  width: 11%;
+  font-family: 'ALS Sirius', sans-serif;
+  line-height: 19.2px;
+  letter-spacing: -0.3px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.masterchain-nav-ico-blue {
+  position: absolute;
+  top: 0px;
+  right: 0%;
+  width: 10px;
+  height: 10px;
+  background-image: url('/local/assets/img/icon/strelka-blue.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.masterchain-achievements div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 15.6%;
+}
+.masterchain-achievements h2 {
+  position: relative;
+  font-family: 'Roboto Flex', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  color: #ffffff;
+  opacity: 0.6;
+  padding-left: 10px;
+}
+
+.masterchain-achievements h2::before {
+  content: '';
+  position: absolute;
+  top: 40%;
+  left: 2px;
+  z-index: 100;
+  width: 2px;
+  height: 2px;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+
+.masterchain-achievements h2::after {
+  content: '';
+  position: absolute;
+  top: 40%;
+  left: 65px;
+  z-index: 100;
+  width: 2px;
+  height: 2px;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+
+.masterchain-achievements p {
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: #ffffff;
+}
+
+.masterchain-servises-wrapper {
+  position: relative;
+  z-index: 100;
+  padding-top: 72px;
+  max-width: 416px;
+}
+
+.masterchain-servises-wrapper::after {
+  position: absolute;
+  top: -29px;
+  left: 50%;
+  content: '';
+  width: 280px;
+  height: 130px;
+  border-left: 2px solid #183877;
+  border-top: 2px solid #183877;
+  border-top-left-radius: 30px;
+}
+
+.masterchain-servises-wrapper::before {
+  position: absolute;
+  top: -19%;
+  left: 19%;
+  content: '';
+  width: 133px;
+  height: 184px;
+  border-left: 2px solid #183877;
+  border-bottom: 2px solid #183877;
+  border-bottom-left-radius: 30px;
+}
+
+.masterchain-servises {
+  position: relative;
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.masterchain-servises::after {
+  position: absolute;
+  top: -7%;
+  left: 49%;
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-color: #183877;
+  border-radius: 50%;
+}
+
+.masterchain-servises li a {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  font-family: 'ALS Sirius', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  color: #ffffff;
+  background-color: #183877;
+  border-radius: 20px;
+  padding: 46px 33px 43px 35px;
+  z-index: 100;
+}
+
+.masterchain-servises li a span {
+  width: 82%;
+}
+
+.house-img {
+  width: 35px;
+  height: 35px;
+}
+
+.arrow-img {
+  width: 24px;
+  height: 24px;
+}
+
+.circle-img {
+  width: 35px;
+  height: 35px;
+}
+
+.square {
+  width: 35px;
+  height: 35px;
+}
+
+.masterchain-servises li a:hover {
+  background-color: #00aaeb;
+}
+
+.masterchain-servises li a:hover .house-img {
+  fill: #ffffff;
+}
+.masterchain-servises li a:hover .b {
+  fill: #ffffff;
+}
+.masterchain-servises li a:hover .circle-img {
+  fill: #ffffff;
+}
+
+.masterchain-servises li a:hover .square {
+  fill: #ffffff;
+}
+.masterchain-servises li a:hover .arrow-img {
+  fill: #ffffff;
+}
+
+.planet-wrapper-img {
+  position: absolute;
+  width: 995px;
+  height: 995px;
+  top: 36.25px;
+  left: 709.58px;
+  background-image: url('/local/assets/img/icon/Planet.svg');
+  background-repeat: no-repeat;
+}
+
+.circle-wrapper-img1 {
+  position: absolute;
+  top: 12px;
+  left: 11px;
+  width: 118px;
+  height: 40px;
+  background-image: url('/local/assets/img/icon/Group\ circle1.svg');
+}
+.circle-wrapper-img2 {
+  position: absolute;
+  top: 66%;
+  left: 11px;
+  width: 97px;
+  height: 134.78px;
+  background-image: url('/local/assets/img/icon/Group\ circle1.svg');
+}

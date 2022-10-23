@@ -1,0 +1,24 @@
+@media (max-width: 880px) {
+  .masterchain {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .promo-info-wrapper {
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 1919px) {
+  .masterchain-servises-wrapper::after {
+    display: none;
+  }
+
+  .masterchain-servises::after {
+    display: none;
+  }
+
+  .masterchain-servises-wrapper::before {
+    display: none;
+  }
+}

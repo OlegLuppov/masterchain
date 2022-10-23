@@ -1,0 +1,19 @@
+@media (max-width: 1919px) {
+  .wraper-item-header {
+    justify-content: center;
+  }
+  .wrapper-item-nav-page {
+    gap: 20px;
+    justify-content: center;
+  }
+  .wrapper-item-links {
+    justify-content: center;
+  }
+  .header::after {
+    display: none;
+  }
+
+  .header::before {
+    display: none;
+  }
+}

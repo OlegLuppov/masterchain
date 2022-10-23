@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 45.22vh;
+  gap: 181.22px;
 }
 
 .wrapper-logo {
@@ -23,7 +23,7 @@
 
 .nav-page {
   display: flex;
-  gap: 10vh;
+  gap: 40px;
   flex-wrap: wrap;
 }
 
@@ -57,7 +57,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 15.5vh;
+  gap: 61.87px;
 }
 
 .header_nav-icon {
@@ -69,7 +69,7 @@
 .header_nav-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 5vh;
+  gap: 18px;
   font-family: 'ALS Sirius', sans-serif;
   font-size: 14px;
   line-height: 14px;
@@ -81,7 +81,7 @@
   display: flex;
   align-items: center;
   text-align: center;
-  gap: 5vh;
+  gap: 15px;
   color: #272727;
   background-color: #ffffff;
   border-radius: 8px;
@@ -92,7 +92,7 @@
   display: flex;
   align-items: center;
   text-align: center;
-  gap: 5vh;
+  gap: 15px;
   color: #ffffff;
   background-color: #ff4713;
   border-radius: 8px;
@@ -103,6 +103,7 @@
   width: 10px;
   height: 10px;
   background-image: url('/local/assets/img/icon/strelka-blue.svg');
+  background-repeat: no-repeat;
 }
 
 .header_nav-ico-wite {

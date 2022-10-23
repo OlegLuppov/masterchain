@@ -3,6 +3,7 @@
   margin: 0 auto;
   background-color: #111c4e;
   padding-top: 20px;
+  overflow: hidden;
 }
 
 a {
