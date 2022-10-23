@@ -85,7 +85,7 @@
   right: 15px;
   width: 10px;
   height: 10px;
-  background-image: url('/local/assets/img/icon/strelka-blue.svg');
+  background-image: url('./masterchain_img/svg/strelka-blue.svg');
   background-repeat: no-repeat;
 }
 
@@ -95,7 +95,7 @@
   right: 15px;
   width: 10px;
   height: 10px;
-  background-image: url('/local/assets/img/icon/strelka-wite.svg');
+  background-image: url('./masterchain_img/svg/strelka-wite.svg');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -129,7 +129,7 @@
   right: 0%;
   width: 10px;
   height: 10px;
-  background-image: url('/local/assets/img/icon/strelka-blue.svg');
+  background-image: url('./masterchain_img/svg/strelka-blue.svg');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -299,7 +299,7 @@
   height: 995px;
   top: 36.25px;
   left: 709.58px;
-  background-image: url('/local/assets/img/icon/Planet.svg');
+  background-image: url('./masterchain_img/svg/Planet.svg');
   background-repeat: no-repeat;
 }
 
@@ -309,7 +309,7 @@
   left: 11px;
   width: 118px;
   height: 40px;
-  background-image: url('/local/assets/img/icon/Group\ circle1.svg');
+  background-image: url('./masterchain_img/svg/Group\ circle1.svg');
 }
 .circle-wrapper-img2 {
   position: absolute;
@@ -317,5 +317,5 @@
   left: 11px;
   width: 97px;
   height: 134.78px;
-  background-image: url('/local/assets/img/icon/Group\ circle1.svg');
+  background-image: url('./masterchain_img/svg/Group\ circle2.svg');
 }

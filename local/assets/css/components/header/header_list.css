@@ -12,13 +12,13 @@
 .wrapper-master {
   width: 143.96px;
   height: 37.71px;
-  background-image: url('/local/assets/img/icon/master.svg');
+  background-image: url('./header_img/svg/master.svg');
 }
 
 .wrapper-chain {
   width: 115.74px;
   height: 37.71px;
-  background-image: url('/local/assets/img/icon/chain.svg');
+  background-image: url('./header_img/svg/chain.svg');
 }
 
 .nav-page {
@@ -63,7 +63,7 @@
 .header_nav-icon {
   width: 26.27px;
   height: 26.27px;
-  background-image: url('/local/assets/img/icon/search.svg');
+  background-image: url('./header_img/svg/search.svg');
 }
 
 .header_nav-links {
@@ -102,14 +102,14 @@
 .header_nav-ico-blue {
   width: 10px;
   height: 10px;
-  background-image: url('/local/assets/img/icon/strelka-blue.svg');
+  background-image: url('./header_img/svg/strelka-blue.svg');
   background-repeat: no-repeat;
 }
 
 .header_nav-ico-wite {
   width: 10px;
   height: 10px;
-  background-image: url('/local/assets/img/icon/strelka-wite.svg');
+  background-image: url('./header_img/svg/strelka-wite.svg');
   background-repeat: no-repeat;
   background-size: contain;
 }
